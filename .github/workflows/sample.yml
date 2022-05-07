@@ -1,0 +1,14 @@
+name: shell commands
+
+on: push
+
+job: 
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Hi Venky"
+      - name: shell commands
+        run: 
+          node -v
+          npm -v  
