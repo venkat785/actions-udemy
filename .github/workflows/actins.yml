@@ -1,0 +1,13 @@
+name: actions workflow
+
+on: push
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: simple jS 
+        uses: actions/hello-world-javascript-action
+        with: 
+          who-to-greet: Venky
+          
