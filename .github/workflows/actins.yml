@@ -1,4 +1,4 @@
-name: actions workflow
+name: actions workflow PR
 
 on: push
 
