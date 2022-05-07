@@ -9,6 +9,6 @@ jobs:
       - name: echo a string
         run: echo "Hi Venky"
       - name: shell commands
-        run: 
+        run: |
           node -v
           npm -v  
