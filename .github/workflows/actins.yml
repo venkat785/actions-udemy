@@ -1,6 +1,6 @@
 name: actions workflow PR
 
-on: push
+#on: push
 
 jobs:
   run-github-actions:
